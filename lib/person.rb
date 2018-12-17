@@ -9,7 +9,7 @@ class Person
     @hygiene = 8
   end
   def happiness=(amount)
-    @happiness = @happiness+amount
+    @happiness = amount 
   end 
   # def hygiene=(amount)
   #   @hygiene+= amount
@@ -55,7 +55,7 @@ class Person
   end 
   
   def take_bath
-    happiness = 4
+    self.happiness += 4
     return "♪ Rub-a-dub just relaxing in the tub ♫"
   end 
   
