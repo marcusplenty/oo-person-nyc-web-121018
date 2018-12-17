@@ -69,6 +69,10 @@ class Person
     if topic == "politics"
       self.happiness -= 2
       recipient.happiness -=2
+      return 
+    elsif topic == "weather"
+      self.happiness += 1
+      recipient.happiness +=1
   end 
 
   
