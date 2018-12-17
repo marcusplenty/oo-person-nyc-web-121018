@@ -73,6 +73,8 @@ class Person
     elsif topic == "weather"
       self.happiness += 1
       recipient.happiness +=1
+      return 'blah blah sun blah rain'
+    else
       return 
   end 
 
