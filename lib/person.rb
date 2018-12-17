@@ -62,11 +62,7 @@ class Person
   def call_friend(friend)
     friend.happiness += 3
     self.happiness += 3
-    if friend.name == "Felix"
-      return "Hi Penelope! It's Felix. How are you?"
-    else
-      return "Hi #{friend.name}! It's Stella. How are you?"
-    end
+    return "Hi #{friend.name}! It's #{person.name}. How are you?"
   end 
   
 
