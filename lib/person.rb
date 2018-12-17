@@ -8,12 +8,6 @@ class Person
     @happiness = 8
     @hygiene = 8
   end
-  # def happiness=(amount)
-  #   @happiness = amount 
-  # end 
-  # def hygiene=(amount)
-  #   @hygiene+= amount
-  # end 
   def happiness
     if @happiness>10
       @happiness = 10
@@ -60,8 +54,8 @@ class Person
   end 
   
   def work_out
-    hygiene = -3
-    happiness = 2
+    self.hygiene -= 3
+    self.happiness += 2
     return "♪ another one bites the dust ♫"
   end
   
