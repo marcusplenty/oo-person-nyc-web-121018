@@ -8,12 +8,12 @@ class Person
     @happiness = 8
     @hygiene = 8
   end
-  def happiness=(amount)
-    @happiness +=amount
-  end 
-  def hygiene=(amount)
-    @hygiene+= amount
-  end 
+  # def happiness=(amount)
+  #   @happiness +=amount
+  # end 
+  # def hygiene=(amount)
+  #   @hygiene+= amount
+  # end 
   def happiness
     if @happiness>10
       @happiness = 10
