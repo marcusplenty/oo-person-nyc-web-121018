@@ -66,6 +66,7 @@ class Person
       return "Hi Penelope! It's Felix. How are you?"
     else
       return "Hi #{friend.name}! It's Stella. How are you?"
+    end
   end 
   
 
